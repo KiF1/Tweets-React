@@ -2,7 +2,7 @@ import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
 import {Post, PostProps} from './components/Post';
 import './global.css';
-import styles from './app.module.css';
+import styles from './App.module.css';
 
 interface Posts extends PostProps {
   id: number
